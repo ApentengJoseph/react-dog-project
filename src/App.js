@@ -42,7 +42,7 @@ function App() {
       setDogs(response.data.message);
       setLoading(false);
     } catch (error) {
-      setError('Failed to fetch dog images');
+      setError('Failed to fetch dog images because they were not compitable');
       setLoading(false);
     }
   };
